@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+body {
+  background-image: url("../public/bg.jpg");
+  font-family: "Staatliches", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.f-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-row {
+  display: flex;
+}
+
+.weatehr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.weather-date {
+  font-size: 20px;
+  color: #1e1e1e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.weather-city {
+  font-size: 40px;
+}
+
+.header-container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.open-weather-icon {
+  width: 7rem;
+}
+
+.github-icon {
+  width: 3rem;
+}
+
+.welcome-message {
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.weather-temp {
+  font-size: 30px;
+  margin: 0 !important;
+}
+
+.input-container {
+  justify-content: space-between;
+  width: 50%;
+}
+
+.input {
+  width: 89%;
+  padding: 10px;
+  /* margin: auto; */
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+}
+
+.search-button {
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Staatliches", cursive;
+}
+
+.search-button:hover {
+  opacity: 0.9;
+}
